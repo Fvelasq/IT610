@@ -1,0 +1,109 @@
+1  ls
+    2  pwd
+    3  df
+    4  du
+    5  ip addr
+    6  dir
+    7  cd downloads
+    8  cd Downloads
+    9  dir
+   10  cd ..
+   11  dir
+   12  clear
+   13  sudo dpkg -i Downloads/splunk-7.0.0-c8a78efdd40f-Linux-x86_64.tgz
+   14  cd Downloads
+   15  dir
+   16  cd ~
+   17  clear
+   18  sudo dpkg -i Downloads/splunk-7.0.0-c8a78efdd40f-linux-2.6-amd64.deb
+   19  sudo /opt/splunk/splunk start
+   20  splunk start
+   21  sudo splunk start
+   22  cd /opt/splunk/bin
+   23  ./splunk enable boot-start
+   24  service splunk start
+   25  ./splunk enable boot-start
+   26  cd ~
+   27  service splunk start
+   28  cd /opt/splunk/bin
+   29  dir
+   30  splunk start
+   31  setSplunkEnv
+   32  cd setSplunkEnv
+   33  cd splunk
+   34  clear
+   35  splunk start
+   36  clear
+   37  cd /opt/splunk/bin
+   38  ./splunk start
+   39  sudo .splunk start
+   40  sudo ./splunk start
+   41  cd ~
+   42  hostname
+   43  hostname -f
+   44  sudo apt-get update && sudo apt-get upgrade
+   45  sudo apt-get install apache2 apache2-doc apache2-utils
+   46  sudo cd /etc/apache2/apache2.conf
+   47  nano /etc/apache2/apache2.conf
+   48  sudo nano /etc/apache2/apache2.conf
+   49  sudo service apache2 restart
+   50  sudo adduser test
+   51  ./stop splunk
+   52  sudo /.stop splunk
+   53  sudo /opt/splunk/bin/splunk stop
+   54  sudo /opt/splunk/bin/splunk start
+   55  ./splunk stop
+   56  sudo ./splunk stop
+   57  sudo /opt/splunk/bin/splunk stop
+   58  sudo service apache2 start
+   59  sudo service apache2 stop
+   60  ./splunk start
+   61  cls
+   62  clear
+   63  cd /opt
+   64  dir
+   65  cd splunk
+   66  dir
+   67  cd bin
+   68  sudo ./splunk start
+   69  sudo ./splunk stop
+   70  sudo apt-get install -y autoconf gcc libc6 make wget unzip apache2-utils php5 libgd2-xpm-dev
+   71  clear
+   72  sudo apt-get install -y autoconf gcc libc6 make wget unzip php libapache2-mod-php7.0 libgd2-xpm-dev
+   73  cd /tmp
+   74  wget -O nagioscore.tar.gz https://github.com/NagiosEnterprises/nagioscore/archive/nagios-4.3.4.tar.gz
+   75  tar xzf nagioscore.tar.gz
+   76  cd /tmp/nagioscore-nagios-4.3.4/
+   77  sudo ./configure --width httpd-conf=/etc/apache2/sites-enabled
+   78  sudo ./configure --with httpd-conf=/etc/apache2/sites-enabled
+   79  clear
+   80  sudo ./configure --with-httpd-conf=/etc/apache2/sites-enabled
+   81  sudo make all
+   82  sudo useradd nagios
+   83  sudo usermod -a -G nagios www-data
+   84  sudo make install
+   85  sudo make install-init
+   86  sudo update-rc.d nagios defaults
+   87  sudo make install-commandmode
+   88  sudo make install-config
+   89  sudo make install-webconf
+   90  sudo a2enmod rewrite
+   91  sudo a2enmod cgi
+   92  service apache2 restart
+   93  sudo ufw allow Apache
+   94  sudo ufw reload
+   95  sudo htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
+   96  sudo service apache2 start
+   97  sudo service apache2 restart
+   98  sudo service nagios start
+   99  sudo apt-get install -y autoconf gcc libc6 libmcrypt-dev make libssl-dev wget bc gawk dc build-essential snmp libnet-snmp-per1 gettext
+  100  sudo apt-get install -y autoconf gcc libc6 libmcrypt-dev make libssl-dev wget bc gawk dc build-essential snmp libnet-snmp-perl gettext
+  101  cd /tmp
+  102  wget --no-check-certificate -O nagios-plugins.tar.gz https://github.com/nagios-plugins/nagios-plugins/archive/release-2.2.1.tar.gz
+  103  tar zxf nagios-plugins.tar.gz
+  104  cd /tmp/nagios-plugins-release-2.2.1/
+  105  sudo ./tools/setup
+  106  sudo .configure
+  107  sudo ./configure
+  108  sudo make
+  109  sudo make install
