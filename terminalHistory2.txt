@@ -1,0 +1,58 @@
+ 469  apt-get install nagios-nrpe-server
+  470  sudo apt-get install nagios-nrpe-server
+  471  cd /etc/nagios
+  472  sudo nano nrpe.cfg
+  473  service nagios-nrpe-server restart
+  474  sudo nano /usr/local/nagios/etc/servers/host.cfg
+  475  cd /usr/local
+  476  cd nagios
+  477  cd etc
+  478  cd servers
+  479  dir
+  480  cd objects
+  481  dir
+  482  cd ..
+  483  dir
+  484  sudo nano nagios.cgf
+  485  sudo nano nagios.cfg
+  486  sudo service nagios restart
+  487  cd objects
+  488  dir
+  489  sudo nano splunk.cfg
+  490  sudo service nagios restart
+  491  sudo nano splunk.cfg
+  492  sudo service nagios restart
+  493  sudo nano splunk.cfg
+  494  sudo service nagios restart
+  495  sudo nano newhost.cfg
+  496  cd ..
+  497  sudo nano nagios.cfg
+  498  sudo /etc/init.d/nagios restart
+  499  sudo service nagios restart
+  500  sudo nano nagios.cfg
+  501  sudo service nagios restart
+  502  sudo nano nagios.cfg
+  503  cd objects
+  504  dir
+  505  sudo nano splunk.cfg
+  506  sudo service nagios restart
+  507  sudo nano splunk.cfg
+  508  sudo service nagios restart
+  509  sudo nano splunk.cfg
+  510  sudo service nagios restart
+  511  sudo nano splunk.cfg
+  512  sudo service nagios restart
+  513  sudo nano splunk.cfg
+  514  sudo service nagios restart
+  515  sudo nano splunk.cfg
+  516  sudo service nagios restart
+  517  sudo nano splunk.cfg
+  518  nano localhost.cfg
+  519  sudo nano localhost.cfg
+  520  sudo nano splunk.cfg
+  521  sudo service nagios restart
+  522  sudo nano splunk.cfg
+  523  sudo service nagios restart
+  524  sudo nano splunk.cfg
+  525  history
+franco@franco-Virtual
