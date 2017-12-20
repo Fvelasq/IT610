@@ -22,3 +22,4 @@ sudo mkdir /var/backup
 sudo automysqlbackup
 sudo ln -s /usr/local/bin/automysqlbackup /etc/cron.daily/
 
+https://www.vultr.com/docs/how-to-install-and-configure-automysqlbackup-on-ubuntu-16-04
