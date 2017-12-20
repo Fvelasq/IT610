@@ -1,0 +1,24 @@
+#Step 1: Install AutoMySQLBackup
+sudo apt-get install automysqlbackup
+
+#Step 2: Configure AutoMySQLBackup
+sudo nano /etc/automysqlbackup/automysqlbackup.conf
+
+#Change the file as per your requirements:
+  CONFIG_mysql_dump_username='root'
+  CONFIG_mysql_dump_password='password'
+  CONFIG_mysql_dump_host='localhost'
+  CONFIG_backup_dir='/var/backup/db'
+  CONFIG_do_monthly="01"
+  CONFIG_do_weekly="5"
+  CONFIG_rotation_daily=6
+  CONFIG_rotation_weekly=35
+  CONFIG_rotation_monthly=150
+  CONFIG_mysql_dump_port=3306
+  CONFIG_mysql_dump_compression='gzip'
+  
+#Next, create a directory for storing MySQL backup.
+sudo mkdir /var/backup
+sudo automysqlbackup
+sudo ln -s /usr/local/bin/automysqlbackup /etc/cron.daily/
+
