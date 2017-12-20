@@ -1,2 +1,0 @@
-#use this cron job
-**7** find./var/lib/automysqlbackup/daily/demo -mtime +7 -type f -delete>/dev/null 2>&1
